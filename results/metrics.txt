@@ -1,0 +1,21 @@
+=== Model Evaluation Metrics ===
+Accuracy:        0.9825 (98.25%)
+Precision:       0.9861 (98.61%)
+Recall:          0.9861 (98.61%)
+F1-Score:        0.9861 (98.61%)
+
+=== Confusion Matrix Breakdown ===
+True Negatives (TN - Malignant as Malignant): 41
+False Positives (FP - Malignant as Benign):   1
+False Negatives (FN - Benign as Malignant):   1
+True Positives (TP - Benign as Benign):       71
+
+=== Full Classification Report ===
+              precision    recall  f1-score   support
+
+   malignant       0.98      0.98      0.98        42
+      benign       0.99      0.99      0.99        72
+
+    accuracy                           0.98       114
+   macro avg       0.98      0.98      0.98       114
+weighted avg       0.98      0.98      0.98       114
